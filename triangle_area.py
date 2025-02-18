@@ -1,8 +1,8 @@
 # FILE NAME - triangle_area.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Andrew Gellatly   
+# DATE: 2/18/2025
+# BRIEF DESCRIPTION:  a program that calculates the area of a triangle based on user input.
 
 
 
@@ -17,14 +17,12 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
     
-    
-    
-    
-    
-    
-    
-    
-    
+height = float(input('Enter the height: '))
+base = float(input('Enter the base: '))
+area = float(0.5 * height * base)
+
+print()
+print(f'The area of the triangle is {area}')
     
 ########### END YER CODE ABOVE THIS LINE ###########
 
@@ -66,13 +64,13 @@ The area of the triangle is 16.0
 
 1. What is the flow of the program? Which line of code kicks off the process?
 
-
+I started by defining my variables based on user input, calculated the triangle area, and displayed it.
 
 
 
 2. What was the hardest part of this lab?
 
-
+I figured out I had to use 'float' instead of 'double' in Python.
 
 
 
